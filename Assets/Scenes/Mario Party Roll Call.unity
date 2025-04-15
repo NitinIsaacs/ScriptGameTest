@@ -603,7 +603,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.14738339, g: 0.17811795, b: 0.2264151, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1624,7 +1624,7 @@ MonoBehaviour:
   timerText: {fileID: 1729965537}
   countText: {fileID: 1419614423}
   resultText: {fileID: 1535250878}
-  gameDuration: 10
+  gameDuration: 25
   levelMin: {x: 0, y: 0, z: 0}
   levelMax: {x: 0, y: 0, z: 0}
   minDistanceBetweenBombs: 2

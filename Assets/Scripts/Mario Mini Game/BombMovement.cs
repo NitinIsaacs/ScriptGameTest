@@ -1,7 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.InputSystem.Controls;
-
 public class BombMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
