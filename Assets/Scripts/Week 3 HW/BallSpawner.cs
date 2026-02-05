@@ -5,15 +5,13 @@ public class BallSpawner : MonoBehaviour
     public GameObject ballPrefab;
     public Transform spawnPoint;
 
-    public void SpawnBall()
+    void Update()
     {
-        if (spawnPoint != null && ballPrefab != null)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(ballPrefab, spawnPoint.position, spawnPoint.rotation);
-        }
-        else
-        {
-            Debug.LogWarning("Ball prefab or spawn point not set!");
+            GameObject ball = Instantiate(ballPrefab, spawnPoint.position, Quaternion.identity);
+            Rigidbody rb = ball.GetComponent<Rigidbody>();
+            rb.AddForce(Vector3.right * 200f, ForceMode.Impulse);
         }
     }
 }

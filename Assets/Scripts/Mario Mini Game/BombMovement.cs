@@ -31,9 +31,8 @@ public class BombMovement : MonoBehaviour
             // Set velocity
             rb.linearVelocity = randomDir * moveSpeed;
 
-            // Wait for the specified interval before choosing a new direction.
+            // Waits for the specified interval before choosing a new direction
             yield return new WaitForSeconds(changeInterval);
         }
     }
 }
-

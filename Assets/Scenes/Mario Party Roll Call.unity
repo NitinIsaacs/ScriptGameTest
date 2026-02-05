@@ -1624,7 +1624,7 @@ MonoBehaviour:
   timerText: {fileID: 1729965537}
   countText: {fileID: 1419614423}
   resultText: {fileID: 1535250878}
-  gameDuration: 25
+  gameDuration: 30
   levelMin: {x: 0, y: 0, z: 0}
   levelMax: {x: 0, y: 0, z: 0}
   minDistanceBetweenBombs: 2
